@@ -1,0 +1,89 @@
+:root{
+  background-image: url("images/bg_image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+h1{
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+hr{
+  width: 30%;
+}
+
+.inputBox{
+  position: relative;
+  width: 250px;
+  top: 10%;
+  left: 0%;
+}
+
+.inputBox input{
+  width: 370px;
+  padding: 10px 30px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 40px;
+  outline: none;
+  color: black;
+  font-size: 0.85em;
+}
+
+.inputBox span{
+  padding: 10px 0px;
+  pointer-events: none;
+  font-size: 0.85em;
+  font-weight: bold;
+  color:rgba(255, 255, 255);
+  transition: 0.5s;
+}
+
+.inputBox ::-webkit-input-placeholder{
+  font-size: 0.85em;
+}
+.fieldRow{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 125px;
+}
+
+.btnDiv{
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  justify-content: space-around;
+  width: 500px;
+  margin-left: 33%;
+
+}
+
+button{
+  width: 200px;
+  padding: 10px 30px;
+  color: white;
+  background-color:rgb(141,155,226);
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 0.7em;
+}
+
+button:hover{
+  background-color: rgb(112,129,219);
+}
+
+.loginBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 35%;
+}
+
+.loginButton{
+  margin-left: 13%;
+}
